@@ -1,0 +1,270 @@
+[intitule]
+type = QLineEdit
+text = Usos del suelo
+
+[resume]
+type = MyTextEdit
+text = capa con los usos del suelo del municipio de la vega
+
+[typedata]
+type = QComboBox
+itemcount = 3
+item_0 = Spatial Dataset
+item_1 = Spatial data series
+item_2 = Spatial data service
+index = 0
+
+[tablelocalisator]
+type = MyTableWidget
+zrows = 1
+zcols = 2
+zwidget_0 = MyWidgetLineEdit|0|4
+zwidget_1 = MySimpleWidgetLineEdit|-1|0
+zrow_0 = http://wms.qgiscloud.com/leonardohurtado/lavega2/|Servicio WMTS
+
+[identificator]
+type = QLineEdit
+text = ES-2017-XUg0vbq59cT7_101822H35M16S
+
+[tablelangues]
+type = QTableView
+itemcount = 24
+item_0 = bul|bulgare
+item_1 = cze|tchèque
+item_2 = dan|danois
+item_3 = deu|allemand
+item_4 = dut|néerlandais; flamand
+item_5 = eng|anglais
+item_6 = est|estonien
+item_7 = fin|finnois
+item_8 = fre|français
+item_9 = ger|allemand
+item_10 = gle|irlandais
+item_11 = gre|grec
+item_12 = hun|hongrois
+item_13 = ita|italien
+item_14 = lav|letton
+item_15 = lit|lituanien
+item_16 = mlt|maltais
+item_17 = pol|polonais
+item_18 = por|portugais
+item_19 = rum|roumain; moldave
+item_20 = slo|slovaque
+item_21 = slv|slovène
+item_22 = spa|espagnol
+item_23 = swe|suédois
+indexes = 22
+
+[tableformats]
+type = MyTableWidget
+zrows = 1
+zcols = 3
+zwidget_0 = MyWidgetLineEdit|0|6
+zwidget_1 = QPushButton|1|-1
+zwidget_2 = MySimpleWidgetLineEdit|-1|0
+zrow_0 = service1.|action|1.0.0
+
+[tablecarac]
+type = QComboBox
+itemcount = 28
+item_0 = 8859part1
+item_1 = 8859part10
+item_2 = 8859part11
+item_3 = 8859part13
+item_4 = 8859part14
+item_5 = 8859part15
+item_6 = 8859part16
+item_7 = 8859part2
+item_8 = 8859part3
+item_9 = 8859part4
+item_10 = 8859part5
+item_11 = 8859part6
+item_12 = 8859part7
+item_13 = 8859part8
+item_14 = 8859part9
+item_15 = GB2312
+item_16 = big5
+item_17 = ebcdic
+item_18 = eucJP
+item_19 = eucKR
+item_20 = jis
+item_21 = shiftJIS
+item_22 = ucs2
+item_23 = ucs4
+item_24 = usAscii
+item_25 = utf16
+item_26 = utf7
+item_27 = utf8
+index = 27
+
+[tablecategories]
+type = QTableView
+itemcount = 34
+item_0 = Apéndice 1|Sistemas de coordenadas de referencia|Elección (choice)
+item_1 = Apéndice 1|Sistema de red geográfica|Elección (choice)
+item_2 = Apéndice 1|Nombres geográficos|Localizatión (location)
+item_3 = Apéndice 1|Unidades administrativas|Fronteras (boundaries)
+item_4 = Apéndice 1|Direcciones|Localizatión (location)
+item_5 = Apéndice 1|Parcelas catastrales|Planificación/Catastro (planningCadastre)
+item_6 = Apéndice 1|Redes de transporte|Transporte (transportation)
+item_7 = Apéndice 1|Hidrografía|Aguas interiores (inlandWaters)
+item_8 = Apéndice 1|Sitios Protegidas|Medio ambiente (environnement)
+item_9 = Apéndice 2|Elevaciones|Elevación (elevation)
+item_10 = Apéndice 2|Cubierta terrestre|Cobertura de la Tierra con mapas básicos e imágenes (imageryBaseMapsEarthCover)
+item_11 = Apéndice 2|Ortoimágenes|Cobertura de la Tierra con mapas básicos e imágenes (imageryBaseMapsEarthCover)
+item_12 = Apéndice 2|Geología|Informatión geocientifica (geoscientificInformation)
+item_13 = Apéndice 3|Unidades estadísticas|Limites (boundaries)
+item_14 = Apéndice 3|Edificios|Estructura (structure)
+item_15 = Apéndice 3|Suelo|Informatión geocientifica (geoscientificInformation)
+item_16 = Apéndice 3|Uso del suelo|Planification/Cadastre (planningCadastre)
+item_17 = Apéndice 3|Salud y seguridad humanas|Salud (health)
+item_18 = Apéndice 3|Servicios de utilidad pública y estatales|Redes de suministro (utilitiesCommunication)
+item_19 = Apéndice 3|Instalaciones de observación del medio ambiente|Estructura (structure)
+item_20 = Apéndice 3|Instalación agrícola y la acuicultura|Agricultura (farming)
+item_21 = Apéndice 3|Distribución de la población — demografía|Sociedad (society)
+item_22 = Apéndice 3|Zonas sujetas a ordenación, a restricciones o reglamentaciones y unidades de notificación|Planeamiento cadastral (planningCadastre)
+item_23 = Apéndice 3|Zonas de riesgos naturales|Informatión geocientifica (geoscientificInformation)
+item_24 = Apéndice 3|Condiciones atmosféricas|Atmósfera Climatológica Meteorológica (climatologyMeteorologyAtmosphere)
+item_25 = Apéndice 3|Aspectos geográficos de carácter meteorológico|Atmósfera Climatológica Meteorológica (climatologyMeteorologyAtmosphere)
+item_26 = Apéndice 3|Rasgos geográficos oceanográficos|Atmósfera Climatológica Meteorológica (climatologyMeteorologyAtmosphere)
+item_27 = Apéndice 3|Regiones marinas|Océanos (oceans)
+item_28 = Apéndice 3|Regiones biogeográficas|Biota (biota)
+item_29 = Apéndice 3|Distribución de las especies|Biota (biota)
+item_30 = Apéndice 3|Hábitats y biotopos|Biota (biota)
+item_31 = Apéndice 3|Instalaciones de producción e industriales|Economía (economy)
+item_32 = Apéndice 3|Recursos energéticos|Economía (economy)
+item_33 = Apéndice 3|Recursos minerales|Economía (economy)
+indexes = 10
+
+[tablemotsclefso]
+type = MyTableWidget
+zrows = 1
+zcols = 2
+zwidget_0 = MyComboBox|2|1
+zwidget_1 = MyComboBox|2|-1
+zrow_0 = 0|13
+
+[tablemotsclefsf]
+type = MyTableWidget
+zrows = 1
+zcols = 5
+zwidget_0 = MySimpleWidgetLineEdit|-1|0
+zwidget_1 = MyCheckBox|6|0
+zwidget_2 = MySimpleWidgetLineEdit|-1|0
+zwidget_3 = MyWidgetLineEdit|0|5
+zwidget_4 = MyComboBox|2|2
+zrow_0 = Coberturas|2|Uso del suelo|2017-10-18|0
+
+[tableemprises]
+type = MyTableWidget
+zrows = 1
+zcols = 5
+zwidget_0 = MySpinBox|3|0
+zwidget_1 = MySpinBox|3|0
+zwidget_2 = MySpinBox|3|0
+zwidget_3 = MySpinBox|3|0
+zwidget_4 = QPushButton|5|0
+zrow_0 = 5.07099|4.87866|-74.41648|-74.28005|action
+
+[tablescr]
+type = MyTableWidget
+zrows = 1
+zcols = 2
+zwidget_0 = MyWidgetLineEdit|0|3
+zwidget_1 = QPushButton|1|-1
+zrow_0 = EPSG:3857|action
+
+[tableetenduetemporelle]
+type = MyTableWidget
+zrows = 0
+zcols = 1
+zwidget_0 = standard
+
+[tabledatepubdata]
+type = MyTableWidget
+zrows = 1
+zcols = 1
+zwidget_0 = MyWidgetLineEdit|0|5
+zrow_0 = 2017-10-18
+
+[datecredata]
+type = QCalendarWidget
+date = 2017-10-18
+
+[daterevdata]
+type = QCalendarWidget
+date = 2017-10-18
+
+[sysreftemp]
+type = QComboBox
+itemcount = 5
+item_0 = Ethiopian
+item_1 = Gregorian
+item_2 = Hegirian
+item_3 = Persan
+item_4 = Vikram Samvat
+index = 1
+
+[genealogie]
+type = MyTextEdit
+text = Plan de ordenamiento territorial de la vega
+
+[grouperesolutionscale]
+type = QGroupBox
+radio = 0
+subtype = MyTableWidget
+zrows = 1
+zcols = 1
+zrow_0 = 100000.0
+index = 0
+
+[coherence]
+type = MyTextEdit
+text = {'TopologyLevelCode':'unknow', 'GeometricObjectTypeCode':'unknow'}
+
+[topo_coherence]
+type = MyButton
+
+[tablespecifications]
+type = MyTableWidget
+zrows = 1
+zcols = 4
+zwidget_0 = MySimpleWidgetLineEdit|-1|0
+zwidget_1 = MyWidgetLineEdit|0|5
+zwidget_2 = MyComboBox|2|2
+zwidget_3 = MyComboBox|2|3
+zrow_0 = REGLAMENTO (UE) N° 1089/2010|2010-11-23|0|0
+
+[groupedroits]
+type = QGroupBox
+radio = 0
+subtype = QTableView
+itemcount = 8
+item_0 = Article 13.1.a| (a) the confidentiality of the proceedings of public authorities, where such confidentiality is provided for by law.
+item_1 = Article 13.1.b| (b) international relations, public security or national defence.
+item_2 = Article 13.1.c| (c) the course of justice, the ability of any person to receive a fair trial or the ability of a public authority to conduct an enquiry of a criminal or disciplinary nature
+item_3 = Article 13.1.d| (d) the confidentiality of commercial or industrial information, where such confidentiality is provided for by national or Community law to protect a legitimate economic interest, including  the  public  interest  in  maintaining  statistical confidentiality and tax secrecy.
+item_4 = Article 13.1.e| (e) intellectual property rights
+item_5 = Article 13.1.f| (f) the confidentiality of personal data and/or files relating to a natural person where that person has not consented to the disclosure of  the information to the public, where such confidentiality is provided for by national or Community law.
+item_6 = Article 13.1.g| (g) the interests or protection of any person who supplied the information requested on a voluntary basis without being under, or capable of being put under, a legal obligation to do so, unless that person has consented to the release of the information concerned.
+item_7 = Article 13.1.h| (h) the protection of the environment to which such information relates, such as the location of rare species.
+indexes = 
+
+[licence]
+type = MyTextEdit
+text = 
+
+[tableroles]
+type = MyTableWidget
+zrows = 2
+zcols = 9
+zwidget_0 = MyComboBox|2|0
+zwidget_1 = MySimpleWidgetLineEdit|-1|0
+zwidget_2 = MySimpleWidgetLineEdit|-1|0
+zwidget_3 = MyComboBox|2|5
+zwidget_4 = MyWidgetLineEdit|0|2
+zwidget_5 = MySimpleWidgetLineEdit|-1|0
+zwidget_6 = MyWidgetLineEdit|0|0
+zwidget_7 = MySimpleWidgetLineEdit|-1|0
+zwidget_8 = MyWidgetLineEdit|0|4
+zrow_0 = 2|La vega|Municipio la Vega|colombia|11111|Bogota|alcaldia.vega@vega.gov|235253466|http://www.lavega-cundinamarca.gov.co/Paginas/default.aspx
