@@ -1,0 +1,213 @@
+<WFS_Capabilities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogc="http://www.opengis.net/ogc" version="1.0.0" xmlns="http://www.opengis.net/wfs" updateSequence="0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.0.0/WFS-capabilities.xsd" xmlns:gml="http://www.opengis.net/gml" xmlns:ows="http://www.opengis.net/ows">
+ <Service>
+  <Name>WFS</Name>
+  <Title>Cartografia temática. Usos del suelo rural</Title>
+  <Abstract>El mapa contiene la informacion rural de los usos del suelos, categorias y subcategorias para el municipio de San Juan de la Vega en el departamento de Cundinamarca</Abstract>
+  <OnlineResource></OnlineResource>
+  <Fees>conditions unknown</Fees>
+  <AccessConstraints>None</AccessConstraints>
+ </Service>
+ <Capability>
+  <Request>
+   <GetCapabilities>
+    <DCPType>
+     <HTTP>
+      <Get onlineResource="http://wms.qgiscloud.com/leonardohurtado/lavega2?"/>
+     </HTTP>
+    </DCPType>
+    <DCPType>
+     <HTTP>
+      <Post onlineResource="http://wms.qgiscloud.com/leonardohurtado/lavega2?"/>
+     </HTTP>
+    </DCPType>
+   </GetCapabilities>
+   <DescribeFeatureType>
+    <SchemaDescriptionLanguage>
+     <XMLSCHEMA/>
+    </SchemaDescriptionLanguage>
+    <DCPType>
+     <HTTP>
+      <Get onlineResource="http://wms.qgiscloud.com/leonardohurtado/lavega2?"/>
+     </HTTP>
+    </DCPType>
+    <DCPType>
+     <HTTP>
+      <Post onlineResource="http://wms.qgiscloud.com/leonardohurtado/lavega2?"/>
+     </HTTP>
+    </DCPType>
+   </DescribeFeatureType>
+   <GetFeature>
+    <ResultFormat>
+     <GML2/>
+     <GML3/>
+     <GeoJSON/>
+    </ResultFormat>
+    <DCPType>
+     <HTTP>
+      <Get onlineResource="http://wms.qgiscloud.com/leonardohurtado/lavega2?"/>
+     </HTTP>
+    </DCPType>
+    <DCPType>
+     <HTTP>
+      <Post onlineResource="http://wms.qgiscloud.com/leonardohurtado/lavega2?"/>
+     </HTTP>
+    </DCPType>
+   </GetFeature>
+   <Transaction>
+    <DCPType>
+     <HTTP>
+      <Post onlineResource="http://wms.qgiscloud.com/leonardohurtado/lavega2?"/>
+     </HTTP>
+    </DCPType>
+   </Transaction>
+  </Request>
+ </Capability>
+ <FeatureTypeList>
+  <Operations>
+   <Query/>
+  </Operations>
+  <FeatureType>
+   <Name>Barrios</Name>
+   <Title>Barrios</Title>
+   <Abstract>Division interna de la zona urbana del municipio de San Juan de La Vega</Abstract>
+   <Keywords>barrios</Keywords>
+   <SRS>EPSG:3857</SRS>
+   <Operations>
+    <Query/>
+    <Update/>
+   </Operations>
+   <LatLongBoundingBox maxx="-8.27387e+06" minx="-8.27637e+06" maxy="558651" miny="555594"/>
+  </FeatureType>
+  <FeatureType>
+   <Name>Bosque</Name>
+   <Title>Cubierta Boscosa</Title>
+   <Abstract>Cubierta de bosque que existe dentro del municipio de San Juan de La Vega</Abstract>
+   <Keywords>bosque</Keywords>
+   <SRS>EPSG:3857</SRS>
+   <Operations>
+    <Query/>
+    <Update/>
+   </Operations>
+   <LatLongBoundingBox maxx="-8.26856e+06" minx="-8.28218e+06" maxy="566434" miny="544032"/>
+  </FeatureType>
+  <FeatureType>
+   <Name>Agrologia</Name>
+   <Title>Clases Agrologicas</Title>
+   <Abstract>Division de las clases agrologicas en el municipio de San Juan de La Vega</Abstract>
+   <Keywords>clases agrologicas</Keywords>
+   <SRS>EPSG:3857</SRS>
+   <Operations>
+    <Query/>
+    <Update/>
+   </Operations>
+   <LatLongBoundingBox maxx="-8.26907e+06" minx="-8.28168e+06" maxy="565971" miny="544537"/>
+  </FeatureType>
+  <FeatureType>
+   <Name>curvas</Name>
+   <Title>Curvas de Nivel</Title>
+   <Abstract>Curvas de nivel que conforman las diversas alturas de municipio de San Juan de La Vega</Abstract>
+   <Keywords>curvas de nivel</Keywords>
+   <SRS>EPSG:3857</SRS>
+   <Operations>
+    <Query/>
+    <Update/>
+   </Operations>
+   <LatLongBoundingBox maxx="-8.26857e+06" minx="-8.28218e+06" maxy="566476" miny="544072"/>
+  </FeatureType>
+  <FeatureType>
+   <Name>Drenaje</Name>
+   <Title>Cuerpos de agua sencillo</Title>
+   <Abstract>Capa que contiene los cuerpos hidricos del municipio de San Juan de La Vega</Abstract>
+   <Keywords>drenaje</Keywords>
+   <SRS>EPSG:3857</SRS>
+   <Operations>
+    <Query/>
+    <Update/>
+   </Operations>
+   <LatLongBoundingBox maxx="-8.26861e+06" minx="-8.28218e+06" maxy="566473" miny="544119"/>
+  </FeatureType>
+  <FeatureType>
+   <Name>Municipios</Name>
+   <Title>Municipios</Title>
+   <Abstract>Division politico administrativa del departamento de Cundinamarca</Abstract>
+   <Keywords>municipio</Keywords>
+   <SRS>EPSG:3857</SRS>
+   <Operations>
+    <Query/>
+    <Update/>
+   </Operations>
+   <LatLongBoundingBox maxx="-8.13222e+06" minx="-8.33665e+06" maxy="650341" miny="408398"/>
+  </FeatureType>
+  <FeatureType>
+   <Name>Suelo</Name>
+   <Title>Usos del Suelo Rural</Title>
+   <Abstract>Division de categorias, subcategorias y usos del suelo rural del municipio de San Juan de La Vega</Abstract>
+   <Keywords>suelo</Keywords>
+   <SRS>EPSG:3857</SRS>
+   <Operations>
+    <Query/>
+    <Update/>
+   </Operations>
+   <LatLongBoundingBox maxx="-8.26907e+06" minx="-8.28168e+06" maxy="565971" miny="544537"/>
+  </FeatureType>
+  <FeatureType>
+   <Name>Veredas</Name>
+   <Title>Veredas</Title>
+   <Abstract>Division politico-administrativa del municipio de San Juan de La Vega</Abstract>
+   <Keywords>veredas</Keywords>
+   <SRS>EPSG:3857</SRS>
+   <Operations>
+    <Query/>
+    <Update/>
+   </Operations>
+   <LatLongBoundingBox maxx="-8.26907e+06" minx="-8.28168e+06" maxy="565971" miny="544537"/>
+  </FeatureType>
+  <FeatureType>
+   <Name>ViaNacional</Name>
+   <Title>Via Nacional</Title>
+   <Abstract>Escala 1:100000 de la via principal que atravieza al  municipio de San Juan de La Vega</Abstract>
+   <Keywords>via nacional</Keywords>
+   <SRS>EPSG:3857</SRS>
+   <Operations>
+    <Query/>
+    <Update/>
+   </Operations>
+   <LatLongBoundingBox maxx="-8.27009e+06" minx="-8.27653e+06" maxy="559242" miny="549949"/>
+  </FeatureType>
+  <FeatureType>
+   <Name>vias</Name>
+   <Title>Red Vial</Title>
+   <Abstract>Estructura o malla vial que compone al municipio de San Juan de La Vega</Abstract>
+   <Keywords>vias red vial</Keywords>
+   <SRS>EPSG:3857</SRS>
+   <Operations>
+    <Query/>
+    <Insert/>
+    <Update/>
+    <Delete/>
+   </Operations>
+   <LatLongBoundingBox maxx="-8.26858e+06" minx="-8.28213e+06" maxy="566473" miny="544235"/>
+  </FeatureType>
+ </FeatureTypeList>
+ <ogc:Filter_Capabilities>
+  <ogc:Spatial_Capabilities>
+   <ogc:Spatial_Operators>
+    <ogc:BBOX/>
+    <ogc:Disjoint/>
+    <ogc:Intersect/>
+    <ogc:Touches/>
+    <ogc:Crosses/>
+    <ogc:Contains/>
+    <ogc:Overlaps/>
+    <ogc:Within/>
+   </ogc:Spatial_Operators>
+  </ogc:Spatial_Capabilities>
+  <ogc:Scalar_Capabilities>
+   <ogc:Comparison_Operators>
+    <ogc:Simple_Comparisons/>
+    <ogc:Between/>
+    <ogc:Like/>
+   </ogc:Comparison_Operators>
+  </ogc:Scalar_Capabilities>
+ </ogc:Filter_Capabilities>
+</WFS_Capabilities>
